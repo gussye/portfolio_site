@@ -1,0 +1,49 @@
+@import "./menu.css";
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-weight: 400;
+}
+body {
+  background-color: #42113c;
+  color: #fff;
+  height: 100%;
+  line-height: 1.5;
+}
+h1.lg-heading {
+  font-size: 6rem;
+}
+h2.sm-heading {
+  margin-bottom: 2rem;
+  padding: 0.2rem 1rem;
+}
+a {
+  color: #fff;
+  text-decoration: none;
+}
+header {
+  position: fixed;
+  z-index: 2;
+  width: 100%;
+}
+main {
+  padding: 4rem;
+  height: 100%;
+}
+main.home {
+  overflow: hidden;
+}
+main.home h1 {
+  margin-top: 20vh;
+}
+.icons {
+  margin-top: 1rem;
+}
+.icons a {
+  padding: 0.4rem;
+}
+a:hover {
+  color: #6bd425;
+  transition: all 1s ease-out;
+}
