@@ -3,6 +3,7 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+  font-family: "Quicksand", sans-serif;
   font-weight: 400;
 }
 body {
@@ -13,10 +14,13 @@ body {
 }
 h1.lg-heading {
   font-size: 6rem;
+  font-weight: 600;
 }
 h2.sm-heading {
   margin-bottom: 2rem;
   padding: 0.2rem 1rem;
+  font-weight: 400;
+  color: #618b25;
 }
 a {
   color: #fff;
