@@ -32,7 +32,7 @@ header {
   width: 100%;
 }
 main {
-  padding: 4rem;
+  padding: 4rem 4rem 2rem 4rem;
   height: 100%;
 }
 main.home {
@@ -47,7 +47,16 @@ main.home h1 {
 .icons a {
   padding: 0.4rem;
 }
+.text p {
+  padding-bottom: 2rem;
+}
 a:hover {
   color: #6bd425;
   transition: all 1s ease-out;
+}
+footer {
+  text-align: center;
+}
+footer a {
+  color: #618b25;
 }
